@@ -4,4 +4,7 @@ numpy
 pymango
 certifi
 
+scikit-learn
+dill
+pyaml
 ##-e .
