@@ -1,10 +1,10 @@
 python-dotenv
 pandas
 numpy
-pymango
+pymongo
 certifi
 
 scikit-learn
-dill
+
 pyaml
 ##-e .

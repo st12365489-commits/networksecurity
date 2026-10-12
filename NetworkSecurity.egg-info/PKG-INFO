@@ -6,7 +6,7 @@ Author-email: st12365489@gmail.com
 Requires-Dist: python-dotenv
 Requires-Dist: pandas
 Requires-Dist: numpy
-Requires-Dist: pymango
+Requires-Dist: pymongo
 Requires-Dist: certifi
 Dynamic: author
 Dynamic: author-email
