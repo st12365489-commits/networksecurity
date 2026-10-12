@@ -7,7 +7,7 @@ from networksecurity.constant.training_pipeline import SCHEMA_FILE_PATH
 from scipy.stats import ks_2samp
 import pandas as pd
 import os,sys
-from networksecurity.utils.main_utils import read_yaml_file,write_yaml_file
+from networksecurity.utils.main_utils.utils import read_yaml_file,write_yaml_file
 
 class DataValidation:
     def __init__(self,data_ingestion_artifact:DataIngestionArtifact,
@@ -58,7 +58,7 @@ class DataValidation:
             #Create directory
             dir_path = os.path.dirname(drift_report_filepath)
             os.makedirs(dir_path,exist_ok=True)
-            write_yaml_file(filepath=drift_report_filepath,content=report)
+            write_yaml_file(file_path=drift_report_filepath,content=report)
 
         except:
             raise Exception

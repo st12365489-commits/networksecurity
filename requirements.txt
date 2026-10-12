@@ -3,8 +3,8 @@ pandas
 numpy
 pymongo
 certifi
-
+mlflow
 scikit-learn
-
 pyaml
+pymongo[srv]
 ##-e .
