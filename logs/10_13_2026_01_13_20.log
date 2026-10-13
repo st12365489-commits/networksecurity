@@ -1,0 +1,11 @@
+[2026-10-13 01:13:46,636] 1025 httpx -INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-10-13 01:13:46,701] 107 dagshub -INFO - Accessing as st12365489-commits
+[2026-10-13 01:13:56,262] 1025 httpx -INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/st12365489-commits/networksecurity "HTTP/1.1 200 OK"
+[2026-10-13 01:14:08,143] 1025 httpx -INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2026-10-13 01:14:08,162] 107 dagshub -INFO - Initialized MLflow to track repo "st12365489-commits/networksecurity"
+[2026-10-13 01:14:08,165] 107 dagshub -INFO - Repository st12365489-commits/networksecurity initialized!
+[2026-10-13 01:14:08,572] 128 fastapi -ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
